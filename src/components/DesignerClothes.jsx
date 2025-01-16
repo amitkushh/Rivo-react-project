@@ -39,7 +39,7 @@ function DesignerClothes() {
             key={index}
             className="flex flex-col justify-center items-center p-9"
           >
-            <div>
+            <div className="bg-[#ededef]">
               <img src={clothe.img} alt="img" />
             </div>
             <div>
