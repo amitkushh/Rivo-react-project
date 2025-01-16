@@ -29,12 +29,12 @@ function BestSelling() {
   ];
 
   return (
-    <div className="flex flex-col justify-center items-center py-16">
+    <div className="flex flex-col justify-center items-center py-16 ">
       <div>
-        <h2 className="text-4xl font-semibold text-center text-para mb-4">
+        <h2 className="text-4xl font-semibold text-center text-para mb-4 px-11">
           Best selling
         </h2>
-        <p className="text-center">
+        <p className="text-center px-11">
           Get in on the trend with our curated selection of best-selling styles.
         </p>
       </div>

@@ -7,10 +7,10 @@ function ExclusiveOffer() {
     <div className="flex flex-col justify-center items-center py-16">
       <div className="bg-top">
         <div>
-          <h2 className="text-4xl font-semibold text-center text-para mb-7 mt-5">
+          <h2 className="text-4xl font-semibold text-center text-para mb-7 mt-10">
             Exclusive offer
           </h2>
-          <p className="text-center">
+          <p className="text-center px-11">
             Unlock the ultimate style upgrade with our exclusive offer Enjoy
             savings of up to 40% off on our latest New Arrivals
           </p>

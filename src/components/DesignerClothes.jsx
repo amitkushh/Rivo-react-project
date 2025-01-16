@@ -23,12 +23,12 @@ function DesignerClothes() {
   ];
 
   return (
-    <div className="flex flex-col justify-center items-center py-16">
+    <div className="flex flex-col justify-center items-center py-16 ">
       <div>
-        <h2 className="text-4xl font-semibold text-center text-para mb-4 ">
+        <h2 className="text-4xl font-semibold text-center text-para mb-4 px-11">
           Designer Clothes For You
         </h2>
-        <p className="text-center clear-start mb-8">
+        <p className="text-center clear-start mb-8 px-11">
           Immerse yourself in the world of luxury fashion with our meticulously
           crafted designer clothes!
         </p>

@@ -6,7 +6,7 @@ import instagram from "../assets/social/instagram.svg";
 function Footer() {
   return (
     <footer>
-      <div className="bg-para flex flex-col justify-center items-start py-9 pl-4">
+      <div className="bg-para flex flex-col justify-center items-start py-9 px-11">
         <div>
           <div className="mb-5">
             <span className="text-4xl font-semibold text-white">Rivo</span>
