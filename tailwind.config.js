@@ -7,6 +7,9 @@ export default {
         top: "#C2EFD4",
         para: "#224F34",
         imgbg: "#6BC785",
+        email: "#A3F3BE",
+        darkpara: "#373737",
+        
       },
     },
   },

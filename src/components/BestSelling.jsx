@@ -30,9 +30,9 @@ function BestSelling() {
         <h2 className="text-4xl font-semibold text-center text-para mb-4">
           Best selling
         </h2>
-        <span className="text-center w-full max-w-1">
+        <p className="text-center">
           Get in on the trend with our curated selection of best-selling styles.
-        </span>
+        </p>
       </div>
       <div></div>
       <div>
