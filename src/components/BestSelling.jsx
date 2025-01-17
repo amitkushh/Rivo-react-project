@@ -29,17 +29,17 @@ function BestSelling() {
   ];
 
   return (
-    <div className="flex flex-col justify-center items-center py-16 lg:px-36 lg:py-20">
+    <div className="flex flex-col justify-center items-center py-16 md:px-12 md:py-20 lg:px-36 lg:py-20">
       <div>
-        <h2 className="text-4xl font-semibold text-center text-para mb-4 px-11 lg:px-0">
+        <h2 className="text-4xl font-semibold text-center text-para mb-4 px-11 md:px-0 lg:px-0">
           Best selling
         </h2>
-        <p className="text-center px-11 lg:px-0">
+        <p className="text-center px-11 md:px-0 lg:px-0">
           Get in on the trend with our curated selection of best-selling styles.
         </p>
       </div>
 
-      <div className="flex flex-col justify-center items-center lg:flex-row ">
+      <div className="flex flex-col justify-center items-center md:flex-row lg:flex-row ">
         {products.map((product, index) => (
           <div
             key={index}

@@ -5,14 +5,14 @@ import { CiMenuFries } from "react-icons/ci";
 
 function Navbar() {
   return (
-    <header className="flex justify-between items-center bg-top py-5 lg:px-36">
-      <div className="pl-11 lg:px-0">
+    <header className="flex justify-between items-center bg-top py-5 md:px-12 lg:px-36">
+      <div className="pl-11 md:px-0 lg:px-0">
         <Link to="/">
           <span className="text-4xl font-semibold text-para">Rivo</span>
         </Link>
       </div>
-      <nav className="hidden lg:block">
-        <ul className="uppercase flex flex-col justify-center items-center gap-4 text-para lg:flex-row lg:ml-40">
+      <nav className="hidden md:block lg:block">
+        <ul className="uppercase flex flex-col justify-center items-center gap-4 text-para  md:flex-row  lg:flex-row lg:ml-40">
           <Link to="/">
             <li>home</li>
           </Link>
@@ -37,10 +37,10 @@ function Navbar() {
           </button>
         </div>
 
-        <div className="pr-6 lg:pr-0">
+        <div className="pr-6 md:pr-0 lg:pr-0">
           <CiMenuFries
             size={25}
-            className="text-para cursor-pointer lg:hidden"
+            className="text-para cursor-pointer md:hidden lg:hidden"
           />
         </div>
       </div>

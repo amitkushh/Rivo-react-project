@@ -18,11 +18,11 @@ function Feedback() {
   ];
 
   return (
-    <div className="flex flex-col justify-center items-center py-16 px-11 lg:px-36 lg:py-20">
-      <h2 className="text-4xl font-semibold text-center text-para mb-4 lg:mb-8">
+    <div className="flex flex-col justify-center items-center py-16 px-11 md:px-12 md:py-20 lg:px-36 lg:py-20">
+      <h2 className="text-4xl font-semibold text-center text-para mb-4 md:mb-8 lg:mb-8">
         Feedback Corner
       </h2>
-      <div className="flex flex-col justify-center items-center gap-6 lg:flex-row">
+      <div className="flex flex-col justify-center items-center gap-6 md:flex-row lg:flex-row">
         {allFeedback.map((feedback, index) => (
           <div
             key={index}
