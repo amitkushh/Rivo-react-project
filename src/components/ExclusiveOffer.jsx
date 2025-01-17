@@ -39,9 +39,9 @@ function ExclusiveOffer() {
           <img
             src={dottedLine}
             alt="dotted line"
-            className="absolute top-[450px] right-80 "
-            width={150}
-            height={150}
+            className="absolute top-[350px] right-60"
+            width={100}
+            height={100}
           />
           <img src={girl} alt="girl" className="relative z-10" />
         </div>

@@ -52,13 +52,13 @@ function Footer() {
           <span className="uppercase text-white font-semibold text-xl">
             stay up to date
           </span>
-          <div>
+          <div className="flex justify-center items-center">
             <input
               type="email"
               name="email"
               required
               placeholder="Enter Your email"
-              className="border border-email py-2 px-4 placeholder:text-white bg-transparent outline-none text-white"
+              className="border border-email py-2 max-w-[200px] pl-2 placeholder:text-white bg-transparent outline-none text-white"
             />
             <button className="uppercase bg-email py-2 px-4">submit</button>
           </div>

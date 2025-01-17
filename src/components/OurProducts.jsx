@@ -73,7 +73,7 @@ function OurProducts() {
       {/* filter section */}
 
       <div>
-        <ul className="uppercase flex justify-center items-center gap-5">
+        <ul className="uppercase flex justify-center items-center gap-5 px-11 flex-wrap">
           <li>sale</li>
           <li>hot</li>
           <li>new arrivals</li>

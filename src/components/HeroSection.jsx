@@ -20,19 +20,19 @@ function HeroSection() {
 
       {/* image section  */}
       <div className="mt-16">
-        <div className="bg-imgbg rounded-tl-[150px] rounded-bl-[50px] rounded-tr-[50px] rounded-br-[120px] relative">
+        <div className="bg-imgbg rounded-tl-[150px] rounded-bl-[50px] rounded-tr-[50px] rounded-br-[90px] relative">
           <img
             src={dottedLine}
-            className="absolute top-96 left-4"
-            height={100}
-            width={100}
+            className="absolute top-72 left-4"
+            height={70}
+            width={70}
           />
-          <img src={girl} alt="girl" height={400} width={400} />
+          <img src={girl} alt="girl" height={300} width={300} />
           <img
             src={dottedLine}
-            className="absolute bottom-80 left-72"
-            height={100}
-            width={100}
+            className="absolute bottom-64 left-52"
+            height={70}
+            width={70}
           />
         </div>
       </div>
