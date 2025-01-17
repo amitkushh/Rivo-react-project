@@ -62,7 +62,7 @@ function OurProducts() {
   ];
 
   return (
-    <div>
+    <div className="lg:py-20 lg:px-36">
       <div>
         <h2 className="text-4xl font-semibold text-center text-para mb-4">
           Our products
@@ -83,7 +83,7 @@ function OurProducts() {
 
       {/* filter section */}
       {/* clothes section */}
-      <div className="grid grid-cols-2 justify-center items-center">
+      <div className="grid grid-cols-2 justify-center items-center lg:grid-cols-4">
         {ourProducts.map((product, index) => (
           <div
             key={index}

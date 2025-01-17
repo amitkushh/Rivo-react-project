@@ -6,7 +6,7 @@ import instagram from "../assets/social/instagram.svg";
 function Footer() {
   return (
     <footer>
-      <div className="bg-para flex flex-col justify-center items-start py-9 px-11">
+      <div className="bg-para flex flex-col justify-center items-start py-9 px-11 lg:flex-row lg:px-36 lg:py-20 lg:justify-between">
         <div>
           <div className="mb-5">
             <span className="text-4xl font-semibold text-white">Rivo</span>
@@ -26,7 +26,9 @@ function Footer() {
             </div>
           </div>
         </div>
-        <div className="flex flex-col gap-4 mb-6 mt-6">
+
+        {/* shop option  */}
+        <div className="flex flex-col gap-4 mb-6 mt-6 lg:mt-0">
           <span className="uppercase text-white font-semibold text-xl">
             shop
           </span>
@@ -37,6 +39,8 @@ function Footer() {
             <li>Releases</li>
           </ul>
         </div>
+
+        {/* comany option */}
         <div className="flex flex-col gap-4 mb-6">
           <span className="uppercase text-white font-semibold text-xl">
             company
@@ -48,7 +52,9 @@ function Footer() {
             <li>Support</li>
           </ul>
         </div>
-        <div className="flex flex-col gap-2">
+
+        {/* email option */}
+        <div className="flex flex-col gap-2 ">
           <span className="uppercase text-white font-semibold text-xl">
             stay up to date
           </span>

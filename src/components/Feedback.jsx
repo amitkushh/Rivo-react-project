@@ -18,15 +18,15 @@ function Feedback() {
   ];
 
   return (
-    <div className="flex flex-col justify-center items-center py-16 px-11">
-      <h2 className="text-4xl font-semibold text-center text-para mb-4">
+    <div className="flex flex-col justify-center items-center py-16 px-11 lg:px-36 lg:py-20">
+      <h2 className="text-4xl font-semibold text-center text-para mb-4 lg:mb-8">
         Feedback Corner
       </h2>
-      <div className="flex flex-col justify-center items-center ">
+      <div className="flex flex-col justify-center items-center gap-6 lg:flex-row">
         {allFeedback.map((feedback, index) => (
           <div
             key={index}
-            className="flex flex-col shadow-lg p-10 hover:bg-imgbg"
+            className="flex flex-col shadow-lg p-10 transition ease-in-out delay-150 hover:bg-imgbg"
           >
             <RiDoubleQuotesL className="text-para" />
             <span className="text-para font-semibold my-3">

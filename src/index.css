@@ -18,3 +18,8 @@ img {
   -moz-user-drag: none;
   -o-user-drag: none;
 }
+
+::selection {
+  background-color: #6bc785;
+  color: white;
+}
