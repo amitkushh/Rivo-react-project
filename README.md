@@ -1,2 +1,10 @@
-This is React vite project.
-design taken from figma
+
+# Rivo React Project
+
+I have taken this design from Figma.
+
+## Tech Stack
+
+**Client:** React, Tailwind Css
+
+
